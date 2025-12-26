@@ -15,8 +15,8 @@ export default function Home() {
 
     // 简单的登录验证逻辑
     if (username === 'admin' && password === '123456') {
-      // 登录成功，跳转到欢迎页
-      router.push('/welcome')
+      // 登录成功，跳转到产品列表页
+      router.push('/products')
     } else {
       setError('用户名或密码错误')
     }
@@ -84,7 +84,8 @@ export default function Home() {
 
           <div className="text-center">
             <p className="text-sm text-gray-600">
-              演示账户: 用户名: admin, 密码: 123456
+              演示账户: 用户名: admin, 密码: 123456<br />
+              登录后将跳转到产品列表页面
             </p>
           </div>
         </form>
