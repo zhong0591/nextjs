@@ -30,7 +30,7 @@ export default function Home() {
             登录到您的账户(来自develop分支的提示)
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            请输入您的用户名和密码
+            请输入您的用户名和密码(develop)
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
